@@ -20,14 +20,14 @@
 .navigation .navbar .navbar-nav li {
 	margin-right: 35px;
 }
-.singel-course .cont {
+.singel-project .cont {
 	padding-left: 25px;
 	padding-right: 25px;
 }
-.singel-course .course-teacher .name {
+.singel-project .project-teacher .name {
 	margin-left: 5px;
 }
-.singel-course .course-teacher .admin ul li {
+.singel-project .project-teacher .admin ul li {
 	margin-right: 5px;
 }
 
@@ -70,10 +70,10 @@
 .category-form {
 	margin-top: -197px;
 }
-.singel-course-2 > .thum .course-teacher .review {
+.singel-project-2 > .thum .project-teacher .review {
 	margin-left: 50px;
 }
-.singel-course-2 > .thum .price {
+.singel-project-2 > .thum .price {
 	bottom: 70px;
 }
 
@@ -98,10 +98,10 @@
 .corses-singel-left {
 	padding: 35px 40px;
 }
-.corses-singel-left .course-terms > ul > li {
+.corses-singel-left .project-terms > ul > li {
 	margin-right: 23px;
 }
-.course-features .price-button .main-btn {
+.project-features .price-button .main-btn {
 	float: none;
 	margin-top: 15px;
 }
@@ -256,10 +256,10 @@
 	font-size: 22px;
 }
 
-.corses-singel-left .course-terms > ul > li {
+.corses-singel-left .project-terms > ul > li {
 	margin-right: 50px;
 }
-.course-features .price-button .main-btn {
+.project-features .price-button .main-btn {
 	float: none;
 	margin-top: 15px;
 }
@@ -283,7 +283,7 @@
 #apply-aprt {
 	padding-bottom: 70px;
 }
-#course-part {
+#project-part {
 	padding-top: 65px;
 	padding-bottom: 70px;
 }
@@ -354,7 +354,7 @@
 	padding-top: 25px;
 }
 
-#courses-part {
+#projects-part {
 	padding-top: 70px;
 	padding-bottom: 70px;
 }
@@ -362,7 +362,7 @@
 	padding-top: 40px;
 	padding-bottom: 70px;
 }
-.releted-courses.pt-95 {
+.releted-projects.pt-95 {
 	padding-top: 45px;
 }
 #event-page {
@@ -535,14 +535,14 @@
 	padding-bottom: 100px;
 }
 
-.courses-top-search {
+.projects-top-search {
 	text-align: center;
 }
-.courses-search{
+.projects-search{
 	float: none !important;
     display: inline-block;
 }
-.courses-top-search .nav {
+.projects-top-search .nav {
 	float: none !important;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
@@ -550,7 +550,7 @@
     padding-bottom: 15px;
 }
 
-#courses-list .singel-course .thum .price {
+#projects-list .singel-project .thum .price {
     top: auto;
 	right: 60px;
 	bottom: -24px;
@@ -559,10 +559,10 @@
 	font-size: 44px;
 }
 
-.corses-singel-left .course-terms > ul > li {
+.corses-singel-left .project-terms > ul > li {
 	margin-right: 50px;
 }
-.corses-singel-left .course-terms ul li .review {
+.corses-singel-left .project-terms ul li .review {
 	margin-left: 60px;
 	margin-top: 15px;
 }
@@ -621,7 +621,7 @@
 #apply-aprt {
 	padding-bottom: 70px;
 }
-#course-part {
+#project-part {
 	padding-top: 65px;
 	padding-bottom: 70px;
 }
@@ -692,7 +692,7 @@
 	padding-top: 25px;
 }
 
-#courses-part {
+#projects-part {
 	padding-top: 70px;
 	padding-bottom: 70px;
 }
@@ -700,7 +700,7 @@
 	padding-top: 40px;
 	padding-bottom: 70px;
 }
-.releted-courses.pt-95 {
+.releted-projects.pt-95 {
 	padding-top: 45px;
 }
 #event-page {
@@ -883,11 +883,11 @@
 	border-bottom-left-radius: 5px;
 }
 
-.singel-course .cont h4 {
+.singel-project .cont h4 {
 	font-size: 20px;
 }
 
-.singel-course .course-teacher .admin {
+.singel-project .project-teacher .admin {
 	float: none;
 	margin-left: 55px;
 }
@@ -955,11 +955,11 @@
     color: #07294d;
 }
 
-.singel-course-2 > .thum .course-teacher .review {
+.singel-project-2 > .thum .project-teacher .review {
 	margin-left: 50px;
     display: block;
 }
-.singel-course-2 > .thum .price {
+.singel-project-2 > .thum .price {
 	bottom: 70px;
 }
 
@@ -1021,14 +1021,14 @@
 	font-size: 40px;
 }
 
-.courses-top-search {
+.projects-top-search {
 	text-align: center;
 }
-.courses-search{
+.projects-search{
 	float: none !important;
     display: inline-block;
 }
-.courses-top-search .nav {
+.projects-top-search .nav {
 	float: none !important;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
@@ -1036,19 +1036,19 @@
     padding-bottom: 15px;
 }
 
-.courses-pagination .pagination .page-item a {
+.projects-pagination .pagination .page-item a {
 	font-size: 14px;
 	width: 34px;
 	height: 34px;
 	line-height: 30px;
 }
 
-#courses-list .singel-course .thum .price {
+#projects-list .singel-project .thum .price {
     top: auto;
 	right: 60px;
 	bottom: -24px;
 }
-.courses-search input {
+.projects-search input {
 	width: 100%;
 }
 
@@ -1060,11 +1060,11 @@
 .corses-singel-left .title h3 {
 	font-size: 24px;
 }
-.corses-singel-left .course-terms > ul > li {
+.corses-singel-left .project-terms > ul > li {
 	margin-right: 0;
 }
-.corses-singel-left .course-terms ul li .course-category,
-.corses-singel-left .course-terms ul li .review {
+.corses-singel-left .project-terms ul li .project-category,
+.corses-singel-left .project-terms ul li .review {
 	margin-top: 15px;
 }
 
@@ -1096,7 +1096,7 @@
 	padding: 25px 5px 30px;
 }
 
-.course-features .price-button .main-btn {
+.project-features .price-button .main-btn {
 	float: none;
 	margin-top: 15px;
 }
@@ -1223,7 +1223,7 @@
 .blog-details .cont .blog-comment ul li .replay {
 	padding-left: 0;
 }
-.course-features .price-button span {
+.project-features .price-button span {
 	display: block;
 }
 
@@ -1255,7 +1255,7 @@
 #apply-aprt {
 	padding-bottom: 70px;
 }
-#course-part {
+#project-part {
 	padding-top: 65px;
 	padding-bottom: 70px;
 }
@@ -1326,7 +1326,7 @@
 	padding-top: 25px;
 }
 
-#courses-part {
+#projects-part {
 	padding-top: 70px;
 	padding-bottom: 70px;
 }
@@ -1334,7 +1334,7 @@
 	padding-top: 40px;
 	padding-bottom: 70px;
 }
-.releted-courses.pt-95 {
+.releted-projects.pt-95 {
 	padding-top: 45px;
 }
 #event-page {

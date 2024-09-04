@@ -156,9 +156,9 @@ $(function() {
     });
     
     
-    //===== Slick Course Slied
+    //===== Slick project Slied
     
-    $('.course-slied').slick({
+    $('.project-slied').slick({
         dots: false,
         infinite: true,
         speed: 800,

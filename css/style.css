@@ -15,7 +15,7 @@
 4. CATEGORY
 5. ABOUT
 6. APPLY
-7. COURSE
+7. project
 8. VIDEO FEATURES
 9. TEACHERS
 10. PUBLICATION
@@ -23,15 +23,15 @@
 12. NEWS
 13. FOOTER
 14. CATEGORY 2
-15. COURSE 2
+15. project 2
 16. COUNTER
 17. TEACHERS 2
 18. EVENT 2
 19. COUNT DOWN
 20. PAGE BANNER
 21. ABOUT PAGE
-22. COURSES PAGE
-23. COURSE SINGEl PAGE
+22. projects PAGE
+23. project SINGEl PAGE
 24. EVENT PAGE
 25. EVENT SINGEL PAGE
 26. TEACHERS SInGEL PAGE
@@ -1013,7 +1013,7 @@ p {
     font-weight: 700;
 }
 
-.category-slied{}
+.category-slied {}
 .category-slied a{
     display: block;
 }
@@ -1167,36 +1167,36 @@ p {
 
 
 /*=====================================================
-    7. COURSE css 
+    7. project css 
 ======================================================*/
 
-.singel-course{
+.singel-project{
     background-color: #fff;
     border-radius: 5px;
     overflow: hidden;
 }
-.singel-course > .thum{
+.singel-project > .thum{
     position: relative;
 }
-.singel-course .thum .image{
+.singel-project .thum .image{
     overflow: hidden;
 }
-.singel-course .thum .image img{
+.singel-project .thum .image img{
     width: 100%;
     -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
 }
-.singel-course:hover .thum .image img{
+.singel-project:hover .thum .image img{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
 
-.singel-course .thum .price{
+.singel-project .thum .price{
     position: absolute;
     right: 60px;
     bottom: -24px;
 }
-.singel-course .thum .price span{
+.singel-project .thum .price span{
     font-size: 14px;
     color: #07294d;
     font-family: 'Montserrat', sans-serif;
@@ -1208,30 +1208,30 @@ p {
     background-color: #ffc600;
     text-align: center;
 }
-.singel-course .cont{
+.singel-project .cont{
     padding-top: 28px;
     padding-bottom: 34px;
     padding-left: 30px;
     padding-right: 30px;
 }
-.singel-course .cont > ul{
+.singel-project .cont > ul{
     display: inline-block;
     margin-right: 10px;
 }
-.singel-course .cont ul li{
+.singel-project .cont ul li{
     display: inline-block;
     margin: 1px;
 }
-.singel-course .cont ul li > i{
+.singel-project .cont ul li > i{
     font-size: 13px;
     color: #ffc600;
 }
 
-.singel-course .cont span{
+.singel-project .cont span{
     font-size: 13px;
     color: #000;
 }
-.singel-course .cont h4{
+.singel-project .cont h4{
     font-weight: 600;
     font-size: 24px;
     color: #000;
@@ -1240,79 +1240,79 @@ p {
     -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
 }
-.singel-course .cont h4:hover{
+.singel-project .cont h4:hover{
     color: #ffc600;
 }
 
-.singel-course .course-teacher{
+.singel-project .project-teacher{
     border-top: 1px solid #e0e0e0;
     padding-top: 20px;
     overflow: hidden;
 }
-.singel-course .course-teacher > .thum{
+.singel-project .project-teacher > .thum{
     display: inline-block;
 }
-.singel-course .course-teacher > .thum img{
+.singel-project .project-teacher > .thum img{
     border-radius: 50%;
     width: 40px;
     height: 40px;
 }
-.singel-course .course-teacher .name {
+.singel-project .project-teacher .name {
 	display: inline-block;
 	margin-left: 10px;
 	position: relative;
 	bottom: 13px;
 }
-.singel-course .course-teacher .name a h6{
+.singel-project .project-teacher .name a h6{
     font-size: 15px;
     color: #24486e;
     -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
 }
-.singel-course .course-teacher .name a:hover h6{
+.singel-project .project-teacher .name a:hover h6{
     color: #ffc600;
 }
 
-.singel-course .course-teacher .admin{
+.singel-project .project-teacher .admin{
     display: inline-block;
     float: right;
     overflow: hidden;
 }
-.singel-course .course-teacher .admin ul {
+.singel-project .project-teacher .admin ul {
 	margin-top: 8px;
 }
-.singel-course .course-teacher .admin ul li{
+.singel-project .project-teacher .admin ul li{
     margin-right: 20px;
 }
-.singel-course .course-teacher .admin ul li:last-child{
+.singel-project .project-teacher .admin ul li:last-child{
     margin-right: 0;
 }
-.singel-course .course-teacher .admin ul li a{
+.singel-project .project-teacher .admin ul li a{
     font-size: 15px;
     color: #8a8a8a;
     -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
 }
-.singel-course .course-teacher .admin ul li a:hover{
+.singel-project .project-teacher .admin ul li a:hover{
     color: #ffc600;
 }
 
-.singel-course .course-teacher .admin ul li a span{
+.singel-project .project-teacher .admin ul li a span{
     color: #8a8a8a;
     margin-left: 3px;
 }
 
-.course-slied{}
-.course-slied .slick-arrow {
+.project-slied{}
+.project-slied .slick-arrow {
 	position: absolute;
 	top: -125px;
 	right: 0;
 }
-.course-slied .prev.slick-arrow{
+.project-slied .prev.slick-arrow{
     left: auto;
     right: 50px;
 }
-.course-slied .slick-arrow i{
+.project-slied .slick-arrow i{
     width: 40px;
     height: 40px;
     line-height: 36px;
@@ -1326,7 +1326,7 @@ p {
     transition: all 0.4s linear;
 }
 
-.course-slied .slick-arrow:hover i{
+.project-slied .slick-arrow:hover i{
     border-color: #ffc600;
     background-color: #ffc600;
 }
@@ -1932,24 +1932,24 @@ p {
 
 
 /*=====================================================
-    15. COURSE 2 css 
+    15. project 2 css 
 ======================================================*/
 
-.singel-course-2{}
-.singel-course-2 > .thum{
+.singel-project-2{}
+.singel-project-2 > .thum{
     position: relative;
 }
-.singel-course-2 > .thum .image > img{
+.singel-project-2 > .thum .image > img{
     border-radius: 5px;
     width: 100%;
 }
-.singel-course-2 > .thum .price{
+.singel-project-2 > .thum .price{
     position: absolute;
     bottom: 40px;
     right: 15px;
     z-index: 5;
 }
-.singel-course-2 > .thum .price span {
+.singel-project-2 > .thum .price span {
 	font-size: 14px;
 	color: #07294d;
 	font-family: 'Montserrat', sans-serif;
@@ -1962,7 +1962,7 @@ p {
 	text-align: center;
 }
 
-.singel-course-2 > .thum .course-teacher{
+.singel-project-2 > .thum .project-teacher{
     background-color: rgba(0, 0, 0, 0.8);
     padding: 15px 25px;
     position: absolute;
@@ -1972,52 +1972,52 @@ p {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-.singel-course-2 > .thum .course-teacher > .thum{
+.singel-project-2 > .thum .project-teacher > .thum{
     display: inline-block;
 }
-.singel-course-2 > .thum .course-teacher > .thum img{
+.singel-project-2 > .thum .project-teacher > .thum img{
     border-radius: 50%;
 }
 
-.singel-course-2 > .thum .course-teacher .name{
+.singel-project-2 > .thum .project-teacher .name{
     display: inline-block;
     margin-left: 5px;
     position: relative;
     bottom: 13px;
 }
-.singel-course-2 > .thum .course-teacher .name h6{
+.singel-project-2 > .thum .project-teacher .name h6{
     color: #fff;
     -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
 }
-.singel-course-2 > .thum .course-teacher .name h6:hover{
+.singel-project-2 > .thum .project-teacher .name h6:hover{
     color: #ffc600;
 }
 
-.singel-course-2 > .thum .course-teacher .review{
+.singel-project-2 > .thum .project-teacher .review{
     display: inline-block;
     margin-left: 15px;
     position: relative;
     bottom: 13px;
 }
-.singel-course-2 > .thum .course-teacher .review ul li{
+.singel-project-2 > .thum .project-teacher .review ul li{
     display: inline-block;
     font-size: 12px;
     color: #ffc600;
 }
-.singel-course-2 > .thum .course-teacher .review ul li{}
+.singel-project-2 > .thum .project-teacher .review ul li{}
 
-.singel-course-2 .cont{
+.singel-project-2 .cont{
     padding-top: 25px;
 }
-.singel-course-2 .cont h4{
+.singel-project-2 .cont h4{
     font-weight: 600;
     font-weight: 24px;
     color: #000;
     -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
 }
-.singel-course-2 .cont h4:hover{
+.singel-project-2 .cont h4:hover{
     color: #ffc600;
 }
 
@@ -2351,41 +2351,41 @@ p {
 
 
 /*=====================================================
-    22. COURSES PAGE css 
+    22. PROJECTS PAGE css 
 ======================================================*/
 
 .tab-content{}
-.tab-content .singel-course .course-teacher .name {
+.tab-content .singel-project .project-teacher .name {
     bottom: 0;
 }
 
-.courses-top-search{
+.projects-top-search{
     background-color: #fff;
     padding: 15px 30px;
     border-radius: 5px;
     overflow: hidden;
 }
-.courses-top-search .nav{
+.projects-top-search .nav{
     margin-top: 5px;
 }
-.courses-top-search .nav .nav-item{
+.projects-top-search .nav .nav-item{
     margin-right: 15px;
     font-size: 15px;
     color: #8a8a8a;
 }
-.courses-top-search .nav .nav-item a{
+.projects-top-search .nav .nav-item a{
     font-size: 16px;
     color: #8a8a8a;
 }
 
-.courses-top-search .nav .nav-item a.active{
+.projects-top-search .nav .nav-item a.active{
     color: #ffc600;
 }
 
-.courses-search{
+.projects-search{
     position: relative;
 }
-.courses-search input{
+.projects-search input{
     height: 30px;
     width: 240px;
     background-color: #f6f6f6;
@@ -2395,7 +2395,7 @@ p {
     border-radius: 5px;
     padding: 0 20px;
 }
-.courses-search button{
+.projects-search button{
     position: absolute;
     top: 0;
     right: 15px;
@@ -2408,18 +2408,18 @@ p {
     cursor: pointer;
 }
 
-#courses-list .singel-course .thum .price {
+#projects-list .singel-project .thum .price {
 	right: -25px;
 	bottom: auto;
 	top: 30px;
 }
 
-.courses-pagination{}
-.courses-pagination .pagination{}
-.courses-pagination .pagination .page-item{
+.projects-pagination{}
+.projects-pagination .pagination{}
+.projects-pagination .pagination .page-item{
     margin: 0 5px;
 }
-.courses-pagination .pagination .page-item a{
+.projects-pagination .pagination .page-item a{
     font-size: 15px;
     color: #07294d;
     width: 40px;
@@ -2431,15 +2431,15 @@ p {
     -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
 }
-.courses-pagination .pagination .page-item a.active,
-.courses-pagination .pagination .page-item a:hover{
+.projects-pagination .pagination .page-item a.active,
+.projects-pagination .pagination .page-item a:hover{
     background-color: #ffc600;
     border-color: #ffc600;
 }
 
 
 /*=====================================================
-    23. COURSE SINGEl PAGE css 
+    23. project SINGEl PAGE css 
 ======================================================*/
 
 .corses-singel-left{
@@ -2455,57 +2455,57 @@ p {
     padding-bottom: 25px;
 }
 
-.corses-singel-left .course-terms{}
-.corses-singel-left .course-terms > ul > li{
+.corses-singel-left .project-terms{}
+.corses-singel-left .project-terms > ul > li{
     display: inline-block;
     margin-right: 60px;
 }
-.corses-singel-left .course-terms > ul li:last-child{
+.corses-singel-left .project-terms > ul li:last-child{
     margin-right: 0;
 }
 
-.corses-singel-left .course-terms ul li .teacher-name{
+.corses-singel-left .project-terms ul li .teacher-name{
     position: relative;
 }
-.corses-singel-left .course-terms ul li .teacher-name .thum{
+.corses-singel-left .project-terms ul li .teacher-name .thum{
     position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     left: 0;
 }
-.corses-singel-left .course-terms ul li .teacher-name .thum img{
+.corses-singel-left .project-terms ul li .teacher-name .thum img{
     border-radius: 50%;
 }
-.corses-singel-left .course-terms ul li .teacher-name .name{
+.corses-singel-left .project-terms ul li .teacher-name .name{
     padding-left: 60px;
 }
 
-.corses-singel-left .course-terms ul li .review span,
-.corses-singel-left .course-terms ul li .teacher-name .name span,
-.corses-singel-left .course-terms ul li .course-category span{
+.corses-singel-left .project-terms ul li .review span,
+.corses-singel-left .project-terms ul li .teacher-name .name span,
+.corses-singel-left .project-terms ul li .project-category span{
     color: #8a8a8a;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
 
-.corses-singel-left .course-terms ul li .teacher-name .name h6,
-.corses-singel-left .course-terms ul li .course-category h6{
+.corses-singel-left .project-terms ul li .teacher-name .name h6,
+.corses-singel-left .project-terms ul li .project-category h6{
     font-size: 16px;
     color: #24486e;
     font-weight: 700;
 }
 
-.corses-singel-left .course-terms ul li .review{}
-.corses-singel-left .course-terms ul li .review ul li {
+.corses-singel-left .project-terms ul li .review{}
+.corses-singel-left .project-terms ul li .review ul li {
     display: inline-block;
 }
-.corses-singel-left .course-terms ul li .review ul li a {
+.corses-singel-left .project-terms ul li .review ul li a {
     font-size: 14px;
     color: #ffc600;
 }
-.corses-singel-left .course-terms ul li .review ul li.rating{
+.corses-singel-left .project-terms ul li .review ul li.rating{
     font-size: 14px;
     color: #000;
     font-weight: 600;
@@ -2816,56 +2816,56 @@ p {
   color: #cecece;
 }
 
-.releted-courses .title h3{
+.releted-projects .title h3{
     font-size: 30px;
     color: #07294d;
 }
 
-.course-features{
+.project-features{
     background-color: #fff;
     padding: 30px 35px;
     border-radius: 5px;
 }
-.course-features h4,
+.project-features h4,
 .You-makelike h4{
     font-size: 24px;
     color: #07294d;
     padding-bottom: 15px;
 }
-.course-features ul{}
-.course-features ul li{
+.project-features ul{}
+.project-features ul li{
     font-size: 15px;
     color: #8a8a8a;
     overflow: hidden;
     line-height: 45px;
     border-bottom: 1px solid #d2d2d2;
 }
-.course-features ul li:last-child{
+.project-features ul li:last-child{
     border-bottom: 0;
 }
 
-.course-features ul li i{
+.project-features ul li i{
     color: #ffc600;
     margin-right: 8px;
 }
-.course-features ul li span{
+.project-features ul li span{
     float: right;
 }
 
-.course-features .price-button{
+.project-features .price-button{
     overflow: hidden;
 }
-.course-features .price-button span{
+.project-features .price-button span{
     font-size: 18px;
     color: #24486e;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     margin-top: 12px;
 }
-.course-features .price-button span b{
+.project-features .price-button span b{
     color: #ffc600;
 }
-.course-features .price-button .main-btn{
+.project-features .price-button .main-btn{
     float: right;
 }
 
